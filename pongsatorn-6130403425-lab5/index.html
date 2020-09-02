@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="pictures/profile-img.jpg" width="400px" height="400px">
+        <div class="introduction">
+            <H2>Pongsatorn Sudputong</H2>
+            <p>Computer Engineer Student</p>
+            <p>Age : 20</p>
+            <div class="social-network">
+                <div class="facebook"><a href="https://www.facebook.com/pongsatorn.sudputong/" target="_blank">
+                        <img src="pictures/facebook-icon.png" width="30px" height="30px"> Neung Pongsatorn</a>
+                </div>
+                <div class="ig"><a href="https://www.instagram.com/neung_pst/?hl=en" target="_blank">
+                        <img src="pictures/ig-icon.jpg" width="30px" height="30px"> neung_pst</a></div>
+            </div>
+            <h4>Skill</h4>
+            <ul style="list-style-type: symbols();">
+                <li>Python</li>
+                <li>Java</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
+                <li>Angular</li>
+            </ul>
+        </div>
+        <div class="education">
+            <h2><img src="pictures/education-icon.svg" width="30px" height="30px">Education</h2>
+            <div class="education-row">
+                <div class="education-column left">
+                    <p>2009-2014</p>
+                    <p>2014-2016</p>
+                    <p>2016-2018</p>
+                    <p>2018-present</p>
+                </div>
+                <div class="education-column right">
+                    <p>Holy Redeemer Northeastern Region School</p>
+                    <p>Holy Redeemer Northeastern Region School</p>
+                    <p>Khon Kaen Wittayayon School</p>
+                    <p>Computer Engineering, Khon Kaen University</p>
+                    <ul>
+                        <li>Trainee at Zercle Technology Co., Ltd.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="grade">
+    <h3>Grade Report</h3>
+    <table>
+        <thead>
+            <th>SubjectNo</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EN811300</td>
+                <td>FUNDAMENTALS OF COMPUTER PROGRAMMING</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>EN811100</td>
+                <td>LINEAR CIRCUIT ANALYSIS</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>EN811101</td>
+                <td>ADVANCED COMPUTER PROGRAMMING</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>EN811302</td>
+                <td>ADVANCED COMPUTER PROGRAMMING LABORATORY</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>EN812000</td>
+                <td>DISCRETE MATHEMATICS AND LINEAR ALGEBRA</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>EN812303</td>
+                <td>DATA STRUCTURES AND ALGORITHMS</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>EN812900</td>
+                <td>COMPUTER ENGINEERING WORKSHOP PRACTICE</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>EN812102</td>
+                <td>CIRCUITS SIGNAL AND SYSTEMS</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>EN812200</td>
+                <td>DIGITAL LOGIC DESIGN</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>EN812201</td>
+                <td>DIGITAL LOGIC DESIGN LABORATORY </td>
+                <td>C+</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<form id="simple-form">
+    <H2>Contract me</H2>
+    <label for="name">Name:</label>
+        <input type="text" class="name" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" class="email" id="email">
+        <br>
+        <button onclick="alert('Already Send')">Submit</button>
+    </form>
+</body>
+</html>

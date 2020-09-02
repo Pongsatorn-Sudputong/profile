@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: antiquewhite;
+    padding: 20px 0 20px 20px;
+}
+
+.introduction > h2 {
+    margin: 20px 10px 5px 20px;
+    font-style: italic;
+}
+
+.introduction > p {
+    margin: 5px 10px 20px 20px;
+    
+}
+
+.social-network {
+    margin-left: 20px;
+}
+
+.facebook {
+    margin-bottom: 20px;
+    width: max-content;
+}
+
+.ig {
+    width: max-content;
+}
+.facebook:hover {
+    opacity: 0.6;
+}
+
+.ig:hover {
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 20px 20px;
+}
+
+.grade > table {
+    border-collapse: collapse;
+}
+  
+.grade > table,  th , td {
+    border: 1px solid black;
+    margin: 5px 10px 20px 20px;
+}
+
+tr :nth-child(3) {
+    text-align: center;
+}
+
+h4 {
+    margin: 20px 10px 5px 20px;
+}
+
+.grade > h3 {
+    margin-left: 230px;
+}
+
+.introduction {
+    margin-right: 70px;
+}
+
+.education-column {
+    float: left;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 80%;
+}
+
+.right > p {
+    font-weight: bold;
+}
+
+.education-row p {
+    margin-bottom: 50px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    width: 20%;
+    background-color: #00cc00;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: auto;
+}
+
+input {
+    padding: 5px;
+}
+
+
+button:hover {
+    background-color: #008800;
+    cursor: pointer;
+}
+
+form > label {
+    text-align: left;
+}
